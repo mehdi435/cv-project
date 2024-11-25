@@ -1,0 +1,115 @@
+/* header starts here */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eee;
+}
+.conteiner {
+  max-width: 1000px;
+  background-color: #1e2a5e;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  width: 120px;
+  height: 120px;
+  border: 3px solid gray;
+  border-radius: 50%;
+  padding: 3px;
+  float: left;
+}
+.header-bio {
+  float: left;
+  padding: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: ghostwhite;
+}
+.header-contact {
+  float: right;
+  padding: 30px;
+}
+.header-contact a {
+  text-decoration: none;
+  color: ghostwhite;
+  font-weight: bold;
+}
+.header-contact a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+.div-clear {
+  clear: both;
+}
+hr {
+  border: solid ghostwhite 3px;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+/* header ends here */
+
+#persional-section {
+}
+.content {
+}
+.left-div {
+  width: 30%;
+  float: left;
+}
+.left-div h3 {
+  color: aqua;
+}
+.right-div {
+  width: 70%;
+  float: left;
+  color: white;
+}
+.right-div h3,
+h5 {
+  color: aqua;
+}
+.common-hr {
+  border: 1px solid white;
+  border-bottom: none;
+  margin: 20px auto;
+  width: 100%;
+}
+
+/* -------------education */
+
+.edu-left-div {
+  float: left;
+  width: 45%;
+}
+.edu-right-div {
+  float: right;
+  width: 45%;
+}
+
+/* ---------footer----------- */
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.footer a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+}
+.footer p {
+  color: white;
+  margin: 20px;
+}
